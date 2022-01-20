@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: TrainImgLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4620416688030061466
+  m_GuidHigh: 15799971449030275747
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5473414685058034883
+      m_GuidHigh: 4575040833958109077
+    m_SerializedTextureGuid:
+      m_GuidLow: 2523287273735512261
+      m_GuidHigh: 7870977336908132715
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_A
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5104282909325770230
+      m_GuidHigh: 4047483609141252509
+    m_SerializedTextureGuid:
+      m_GuidLow: 16633090207799425751
+      m_GuidHigh: 10785278191962673290
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_EU
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5212131770347273400
+      m_GuidHigh: 12152305018983193245
+    m_SerializedTextureGuid:
+      m_GuidLow: 11341218003194261074
+      m_GuidHigh: 8840745665148134202
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_Ivolga
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5394159955911565354
+      m_GuidHigh: 2132381665022340241
+    m_SerializedTextureGuid:
+      m_GuidLow: 9846049076438933789
+      m_GuidHigh: 9617038780477814232
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_B
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4737560266108910527
+      m_GuidHigh: 4115804784538793354
+    m_SerializedTextureGuid:
+      m_GuidLow: 456036252946624202
+      m_GuidHigh: 11392592173963343083
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_Old
+    m_Texture: {fileID: 0}
