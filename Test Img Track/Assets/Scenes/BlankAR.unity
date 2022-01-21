@@ -535,12 +535,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bde4cbe98ffd17e4cacbfe22139e96bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainA: {fileID: 3902737926168008077, guid: 79349557a719dc244a646808ecf0c4a6, type: 3}
-  trainEu: {fileID: 8078988026192598335, guid: cab1e368e78b2654ba741a28a9176814, type: 3}
-  trainIvolga: {fileID: 1442394026921487422, guid: 3d9ac0dda7f6ac042b37a3b86fa37dc3,
+  trainA: {fileID: 3692943486922445043, guid: 79349557a719dc244a646808ecf0c4a6, type: 3}
+  trainEu: {fileID: 4551410501356285524, guid: cab1e368e78b2654ba741a28a9176814, type: 3}
+  trainIvolga: {fileID: 2679664322069949060, guid: f5ef84bb4320b834ba326248a64f6835,
     type: 3}
-  trainB: {fileID: 5341036136404533291, guid: 033c37bb6ac89304886963207f7a7810, type: 3}
-  oldTrain: {fileID: 8764147130655526742, guid: 2512d6e5db6e5674fbee825fa5aa3113,
+  trainB: {fileID: 4712852943388256955, guid: 033c37bb6ac89304886963207f7a7810, type: 3}
+  oldTrain: {fileID: 5057845991320709305, guid: 2512d6e5db6e5674fbee825fa5aa3113,
     type: 3}
 --- !u!1 &1731834084
 GameObject:
@@ -641,6 +641,62 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1914234597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914234599}
+  - component: {fileID: 1914234598}
+  m_Layer: 0
+  m_Name: LeanTouch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1914234598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914234597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc98219a83dff145947365dc914d06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapThreshold: 0.2
+  swipeThreshold: 100
+  referenceDpi: 200
+  guiLayers:
+    serializedVersion: 2
+    m_Bits: 32
+  useTouch: 1
+  useHover: 1
+  useMouse: 1
+  useSimulator: 1
+  recordFingers: 1
+  recordThreshold: 5
+  recordLimit: 10
+--- !u!4 &1914234599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914234597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2018025244
 GameObject:
   m_ObjectHideFlags: 0
