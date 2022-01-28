@@ -19,8 +19,8 @@ MonoBehaviour:
       m_GuidLow: 5473414685058034883
       m_GuidHigh: 4575040833958109077
     m_SerializedTextureGuid:
-      m_GuidLow: 2523287273735512261
-      m_GuidHigh: 7870977336908132715
+      m_GuidLow: 16592609064503315109
+      m_GuidHigh: 13778753739507754731
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Train_A
@@ -29,8 +29,8 @@ MonoBehaviour:
       m_GuidLow: 5104282909325770230
       m_GuidHigh: 4047483609141252509
     m_SerializedTextureGuid:
-      m_GuidLow: 16633090207799425751
-      m_GuidHigh: 10785278191962673290
+      m_GuidLow: 172459916841897398
+      m_GuidHigh: 17966299615152983435
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Train_EU
@@ -39,21 +39,11 @@ MonoBehaviour:
       m_GuidLow: 5212131770347273400
       m_GuidHigh: 12152305018983193245
     m_SerializedTextureGuid:
-      m_GuidLow: 11341218003194261074
-      m_GuidHigh: 8840745665148134202
+      m_GuidLow: 3428411067871648690
+      m_GuidHigh: 8703734976430170969
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Train_Ivolga
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5394159955911565354
-      m_GuidHigh: 2132381665022340241
-    m_SerializedTextureGuid:
-      m_GuidLow: 9846049076438933789
-      m_GuidHigh: 9617038780477814232
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Train_B
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4737560266108910527
@@ -64,4 +54,14 @@ MonoBehaviour:
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Train_Old
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5052626203845610218
+      m_GuidHigh: 10951579468659383989
+    m_SerializedTextureGuid:
+      m_GuidLow: 9157088357230767191
+      m_GuidHigh: 1976260503023011994
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Train_B
     m_Texture: {fileID: 0}

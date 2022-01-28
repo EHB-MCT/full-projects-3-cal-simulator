@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1541306731884987679}
   - component: {fileID: 5057845991320709307}
   - component: {fileID: 5057845991320709304}
+  - component: {fileID: -839824039071208605}
   m_Layer: 0
   m_Name: model
   m_TagString: Untagged
@@ -94,12 +95,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5057845991320709305}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1859df7762dbaf740b24339df0d7809e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loopSpeed: 0
+  loop: 0
 --- !u!114 &1541306731884987679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +132,7 @@ MonoBehaviour:
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
-  axis: {x: 0, y: 0, z: 0}
+  axis: {x: 0, y: -1, z: 0}
   space: 1
   sensitivity: 1
 --- !u!114 &5057845991320709304
@@ -156,6 +158,29 @@ MonoBehaviour:
   sensitivity: 1
   damping: -1
   remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &-839824039071208605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5057845991320709305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  sensitivity: 1
+  damping: -1
+  inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &5527807786993928408
 GameObject:
   m_ObjectHideFlags: 0
