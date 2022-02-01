@@ -5,9 +5,9 @@ using UnityEngine;
 public class PagesManager : MonoBehaviour
 {
 
-    public GameObject login, signUp, homePage, scorePage, 
-    settings, editProfile, editPassword ,info, navBar;
-
+    public GameObject login, signUp, homePage, 
+    settings, scanPage ,info, navBar;
+    ////scorePage
 
     // Start is called before the first frame update
     void Start()
@@ -15,10 +15,10 @@ public class PagesManager : MonoBehaviour
         login.SetActive(true);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
         navBar.SetActive(false);
     }
@@ -29,12 +29,12 @@ public class PagesManager : MonoBehaviour
         login.SetActive(false);
         signUp.SetActive(false);
         homePage.SetActive(true);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
-        navBar.SetActive(false);
+        navBar.SetActive(true);
         
     }
 
@@ -43,10 +43,10 @@ public class PagesManager : MonoBehaviour
         login.SetActive(true);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
         navBar.SetActive(false);
     }
@@ -56,62 +56,51 @@ public class PagesManager : MonoBehaviour
         login.SetActive(false);
         signUp.SetActive(true);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
         navBar.SetActive(false);
     }
 
-    public void goToScorePage()
+   /* public void goTo//scorePage()
     {
         login.SetActive(false);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(true);
+        //scorePage.SetActive(true);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
         navBar.SetActive(true);
-    }
+    }*/
 
     public void goToSettingsPage()
     {
         login.SetActive(false);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(true);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(false);
         navBar.SetActive(true);
     }
 
-    public void goToEditProfilePage()
-    {
-        login.SetActive(false);
-        signUp.SetActive(false);
-        homePage.SetActive(false);
-        scorePage.SetActive(false);
-        settings.SetActive(false);
-        editProfile.SetActive(true);
-        editPassword.SetActive(false);
-        info.SetActive(false);
-        navBar.SetActive(true);
-    }
+  
 
-    public void goToEditPasswordPage()
+    public void goToscanPagePage()
     {
         login.SetActive(false);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(true);
+        
+        scanPage.SetActive(true);
         info.SetActive(false);
         navBar.SetActive(true);
     }
@@ -121,10 +110,10 @@ public class PagesManager : MonoBehaviour
         login.SetActive(false);
         signUp.SetActive(false);
         homePage.SetActive(false);
-        scorePage.SetActive(false);
+        //scorePage.SetActive(false);
         settings.SetActive(false);
-        editProfile.SetActive(false);
-        editPassword.SetActive(false);
+        
+        scanPage.SetActive(false);
         info.SetActive(true);
         navBar.SetActive(true);
     }
