@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/ImportAssetsTerain/Cartoon low poly tree/Scenes/Demo_01.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MenuScene.unity
+    guid: 6b5d1e88dda077445972f79472eac436
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 764fa25dc0a0ad5429a29bff14ad14cb
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c37269dda215d9d43b8a2cdc62142efe, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 090386f6628f1fa4498a7eb688df6a94, type: 2}

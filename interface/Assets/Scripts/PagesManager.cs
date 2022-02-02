@@ -6,7 +6,7 @@ public class PagesManager : MonoBehaviour
 {
 
     public GameObject login, signUp, homePage, 
-    settings, scanPage ,info, navBar;
+    settings, scanPage ,info, navBar, ArCamera;
     ////scorePage
 
     // Start is called before the first frame update
@@ -99,8 +99,8 @@ public class PagesManager : MonoBehaviour
         homePage.SetActive(false);
         //scorePage.SetActive(false);
         settings.SetActive(false);
-        
         scanPage.SetActive(true);
+        ArCamera.SetActive(true);
         info.SetActive(false);
         navBar.SetActive(true);
     }
