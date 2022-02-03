@@ -48,6 +48,8 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(false);
         MenuEur320.SetActive(false);
         MenuMs08.SetActive(true);
+
+     
     }
 
     public void StartMenuNoTrain()
@@ -58,6 +60,7 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(false);
         MenuEur320.SetActive(false);
         MenuMs08.SetActive(false);
+
     }
 
     public void StartMenuEur320()
@@ -68,6 +71,7 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(false);
         MenuEur320.SetActive(true);
         MenuMs08.SetActive(false);
+
     }
 
     public void StartMenuType12()
@@ -78,6 +82,8 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(true);
         MenuEur320.SetActive(false);
         MenuMs08.SetActive(false);
+
+   
     }
 
     public void StartMenuType07()
@@ -88,6 +94,8 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(false);
         MenuEur320.SetActive(false);
         MenuMs08.SetActive(false);
+
+    
     }
 
     public void StartMenuSerie15()
@@ -98,5 +106,7 @@ public class GameManagerScript : MonoBehaviour
         MenuType12.SetActive(false);
         MenuEur320.SetActive(false);
         MenuMs08.SetActive(false);
+
+   
     }
 }

@@ -5,48 +5,87 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
 
-    public GameObject MenuCamera, GameFrontCamera, GameSideCamera, GameThirdPersonCamera; 
+    public GameObject  GameFrontCamera, GameCockpitCamera, GameThirdPersonCamera; 
+
+    private int counter;
     // Start is called before the first frame update
     void Start()
     {
-        MenuCamera.SetActive(true);
+
+        FindCameras();
+
+        counter = 0;
         GameFrontCamera.SetActive(false);
-        GameSideCamera.SetActive(false);
-        GameThirdPersonCamera.SetActive(false);
+        GameCockpitCamera.SetActive(false);
+        GameThirdPersonCamera.SetActive(true);
         
        
     }
 
+    void Update()
+    {
+        if(counter == 0)
+        {
+            StartGameThirdPersonCamera();
+        }else if(counter == 1)
+        {
+            StartGameFrontCamera();
+        }else if(counter == 2)
+        {
+            StartGameCockpitCamera();
+        }
+    }
+
+    public void ChangeCounter()
+    {
+      counter += 1;
+
+      if(counter > 2)
+      {
+          counter =0;
+      }
+
+    }
+
+    public void FindCameras()
+    {
+        GameFrontCamera = GameObject.Find("FrontCamera");
+        GameCockpitCamera = GameObject.Find("CockPitCamera");
+        GameThirdPersonCamera = GameObject.Find("ThirdCam");
+        
+            
+    }
+
     public void StartGameFrontCamera()
     {
-        MenuCamera.SetActive(false);
+        
         GameFrontCamera.SetActive(true);
-        GameSideCamera.SetActive(false);
+        GameCockpitCamera.SetActive(false);
         GameThirdPersonCamera.SetActive(false);
     }
 
-    public void StartGameSideCamera()
+    public void StartGameCockpitCamera()
     {
-        MenuCamera.SetActive(false);
+        
         GameFrontCamera.SetActive(false);
-        GameSideCamera.SetActive(true);
+        GameCockpitCamera.SetActive(true);
         GameThirdPersonCamera.SetActive(false);
     }
 
     public void StartGameThirdPersonCamera()
     {
-        MenuCamera.SetActive(false);
+      
         GameFrontCamera.SetActive(false);
-        GameSideCamera.SetActive(false);
+        GameCockpitCamera.SetActive(false);
         GameThirdPersonCamera.SetActive(true);
     }
 
     public void StartMenuCamera()
     {
-        MenuCamera.SetActive(true);
+       
         GameFrontCamera.SetActive(false);
-        GameSideCamera.SetActive(false);
-        GameThirdPersonCamera.SetActive(false);
+        GameCockpitCamera.SetActive(false);
+        GameThirdPersonCamera.SetActive(true);
     }
 
    

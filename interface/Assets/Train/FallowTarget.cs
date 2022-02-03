@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 // Notes
 
@@ -27,7 +27,9 @@ public class FallowTarget : MonoBehaviour {
 	public float delayToStart = 2;
 
 	bool start;
-
+	
+    [SerializeField] private Slider slider;
+	public float sliderValue;
 	void Start(){
 		if(delayToStart > 0){
 			start = false;
@@ -35,6 +37,10 @@ public class FallowTarget : MonoBehaviour {
 		}else{
 			start = true;
 		}
+
+		slider.onValueChanged.AddListener((v) => {
+            sliderValue = v;
+        });
 
 	}
 
@@ -44,6 +50,8 @@ public class FallowTarget : MonoBehaviour {
 	}
 
 	void Update () {
+
+		Speed = sliderValue * 30;
 		if(start == false)
 			return;
 
